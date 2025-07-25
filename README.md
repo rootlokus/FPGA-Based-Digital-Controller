@@ -2,9 +2,10 @@
 
 The realization of the digital controller can be done using a microcontroller, a DSP, or an FPGA. The FPGA provides a parallel computing platform, enabling fast processing of the input variables so that the output can be provided in real time. In this project, the realization of the controller's transfer function is implemented on the FPGA. To observe the controller's output, a DAC interface was necessary so that the output (corresponding to, say, a given step input) could be viewed on an oscilloscope. An I2C DAC was programmed for this purpose. However, to provide inputs to the controller, an ADC is required. The inputs can include a reference value and a feedback value from a sensor (voltage/current/temperature).
 
-This project includes the design and implementation of a digital controller on Altera Cyclone II EP2C5T144I8N/Cyclone IV EP4CE115F29C7N FPGA. Verilog HDL has been used for the design and implementation of the controllers. The programming and simulations have been done in Quartus II 13.0 and ModelSim-Altera 10.1d.
+This project includes the design and implementation of a digital controller on **Altera Cyclone II EP2C5T144I8N/Cyclone IV EP4CE115F29C7N FPGA.** Verilog HDL has been used for the design and implementation of the controllers. The programming and simulations have been done in Quartus II 13.0 and ModelSim-Altera 10.1d.
 
-<p align="center"><img width="100%" src="img/FPGA."/></p>
+<p align="center"><img width="50%" src="image/fpga.png"/></p>
+
 
 ## I2C Protocol
 
